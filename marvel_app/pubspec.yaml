@@ -1,0 +1,22 @@
+name: marvel_app
+description: App Flutter que consume API de Marvel - Trabajo Académico
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.1
+  http: ^1.1.0
+  crypto: ^3.0.3
+  cached_network_image: ^3.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
